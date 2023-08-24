@@ -258,20 +258,23 @@ import Card from "../components/Card.astro";
       <p>
         Server side rendering, NEXT.Js
         <img
-          src="https://nextjs.org/docs/pages/building-your-application/rendering/server-side-rendering"
+          src="https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots_2022/Imagen-explicativa-del-server-side-rendering.png"
           alt="Otra imagen de ejemplo"
         />
       </p>
       <br />
       <p>
         Astro
-        <img src="https://astro.build/" alt="Otra imagen de ejemplo" />
+        <img
+          src="https://deegloo.com/wp-content/uploads/2022/11/blogblog-cover-1024x614.png"
+          alt="Otra imagen de ejemplo"
+        />
       </p>
       <br />
       <p>
         Historia del desarrollo web, Mclibre.org
         <img
-          src="https://www.mclibre.org/consultar/htmlcss/otros/historia-resumen.html"
+          src="https://webcorp.ec/images/historia-del-diseno-web.jpg"
           alt="Otra imagen de ejemplo"
         />
       </p>
@@ -327,6 +330,9 @@ import Card from "../components/Card.astro";
   .intro-section {
     background-color: #3498db;
     margin-top: 0; /* Eliminamos el margen superior */
+  }
+  .alcance-section {
+    background-color: #9b59b6;
   }
 
   .tendencias-section {
@@ -391,6 +397,17 @@ import Card from "../components/Card.astro";
     background-color: #d35400;
   }
   .webgrafia-section {
+    display: flex;
+    align-items: center;
     background-color: #238dde;
+    height: auto;
+  }
+
+  .webgrafia-section img {
+    width: 500px;
+    height: auto;
+    margin-left: 14px;
+    border: solid white 1px;
+    border-radius: 14px;
   }
 </style>
